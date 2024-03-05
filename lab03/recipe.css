@@ -1,0 +1,19 @@
+body {
+    background-color: lightblue;
+}
+p {
+    color: #333; /* Dark gray text color */
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Use a generic sans-serif font */
+}
+h2 {
+    margin: 10px; /* Equal margin on all sides */
+}
+li {
+    text-transform: uppercase; /* Display title in all uppercase */
+}
+
+img {
+    max-width: 100%;
+  }
