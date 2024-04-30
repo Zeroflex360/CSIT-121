@@ -1,0 +1,37 @@
+#box1{
+    height: 200px;
+    width: 200px;
+    border: 10px dotted;
+    border-radius: 5px;
+    background-color: mediumslateblue;
+    color: blue;
+    margin: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 50px;
+    left: 325px;
+}
+
+#box2{
+    height: 200px;
+    width: 200px;
+    border: 20px solid;
+    border-radius: 4%;
+    background-color: greenyellow;
+    color: black;
+    margin: 15px;
+    padding: 20px;
+    float: right;
+}
+
+#box3{
+    height: 200px;
+    width: 200px;
+    border: 10px solid;
+    border-radius: 12px;
+    background-color: rgb(47, 255, 231);
+    color: rgba(0, 0, 0, 0.764);
+    margin: 20px;
+    padding: 30px;
+    float: bottom;
+}

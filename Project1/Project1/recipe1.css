@@ -1,0 +1,62 @@
+body {
+    background-color: lightblue;
+    max-width: 80%;
+    margin: 0 auto;
+}
+p {
+    color: #333; /* Dark gray text color */
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Use a generic sans-serif font */
+    text-align: center;
+}
+h2 {
+    margin: 10px; /* Equal margin on all sides */
+    text-align: center;
+}
+li {
+    text-transform: uppercase; /* Display title in all uppercase */
+}
+
+img src {
+    max-width: 50%;
+    height: 100;
+    float: right;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.left-element {
+    float:left;
+    width: 50%; /* Adjust as needed */
+}
+
+.right-element {
+    float: right;
+    width: 50%; /* Adjust as needed */
+}
+
+.left,
+.right {
+    float: left;
+    width: 50%;
+}
+
+
+a:link {
+    color: blue;
+    text-decoration: underline;
+  }
+  
+  a:visited {
+    color: purple;
+    text-decoration: underline;
+  }
+  
+  a:hover {
+    color: red;
+    text-decoration: none;
+  }
