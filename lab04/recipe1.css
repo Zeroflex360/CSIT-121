@@ -19,7 +19,7 @@ li {
 }
 
 img src {
-    max-width: 50%;
+    max-width: 80%;
     height: 100;
     float: right;
 }
@@ -27,16 +27,19 @@ img src {
 .container {
     width: 80%;
     margin: 0 auto;
+    position: absolute;
 }
 
 .left-element {
     float:left;
-    width: 50%; /* Adjust as needed */
+    width: 80%; /* Adjust as needed */
+    position: absolute;
 }
 
 .right-element {
     float: right;
-    width: 50%; /* Adjust as needed */
+    width: 80%; /* Adjust as needed */
+    position: absolute;
 }
 
 .left,
