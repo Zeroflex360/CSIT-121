@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Form Elements</title>
+    <link rel="stylesheet" href="styleintro.css">
+</head>
+<body>
+
+  <header>
+    <h1>My Form Elements</h1>
+  </header>
+
+  <main>
+    <form action="#" method="post">
+    <section>
+      <h2>1. Text Input</h2>
+      <p>The "input" tag with type="text" configures a text box form control. The text box form control accepts text or numeric information such as names, e-mail addresses, phone numbers, and other text.</p>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+    </section>
+
+    <section>
+      <h2>2. Text Area</h2>
+      <p>The "textarea" tag denotes the beginning of the scrolling text box.</p>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" placeholder="Enter your message" rows="4" required></textarea>
+    </section>
+
+    <section>
+      <h2>3. Checkbox</h2>
+      <p>The check box form control allows the user to select one or more of a group of predetermined items. The input element with type="checkbox" configures a check box</p>
+      Choose your favorite pet: <br>
+      <input type="checkbox" name="GO" id="GO" value="yes">
+      Dogs<br>
+      <input type="checkbox" name="Firefox" id="Firefox"
+      value="yes"> Cats<br>
+      <input type="checkbox" name="Edge" id="Edge"
+      value="yes"> Rabbit<br>
+    </section>
+
+    <section>
+      <h2>4. Radio Buttons</h2>
+      <p>The radio button form control allows the user to select exactly one (and only one) choice from a group of predetermined items.</p>
+      Select your favorite genre of music:<br>
+      <input type="radio" id="choice1" name="choice" value="choice1">
+      <label for="choice1">Rock</label><br>
+      <input type="radio" id="choice2" name="choice" value="choice2">
+      <label for="choice2">Pop</label><br>
+      <input type="radio" id="choice3" name="choice" value="choice3">
+      <label for="choice3">Hip-Hop</label><br>
+    </section>
+
+    <section>
+        <br>
+      <h2>5. Password Box</h2>
+      <p>The password box form control is similar to the text box, but it is used to accept information that must be hidden as it is entered, such as a password.</p>
+      Password: <input type="password" name="pword" id="pword">
+      </select>
+    </section>
+</form>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Christopher Eze</p>
+  </footer>
+
+</body>
+</html>

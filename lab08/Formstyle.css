@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #171717;
+    color: #eff0f5;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h1, h2 {
+    color: #f0f1f4;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea,
+select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #333; /* Text color */
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-top: 0.5rem;
+}
+
+input[type="checkbox"] + label,
+input[type="radio"] + label {
+    margin-left: 0.5rem;
+}
+
